@@ -5,7 +5,7 @@ import random
 from dotenv import load_dotenv
 
 load_dotenv()
-HP_TOKEN = os.getenv('HP_TOKEN')
+HP_TOKEN = os.getenv('7741293072:AAEiWZSyFz1V39uQYbHEk10BTUoPYiUxyS4')
 # print(HP_TOKEN)
 
 bot = telebot.TeleBot(HP_TOKEN) #balderdashBot
