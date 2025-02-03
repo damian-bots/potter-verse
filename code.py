@@ -5,9 +5,9 @@ import random
 from dotenv import load_dotenv
 
 load_dotenv()
-HP_TOKEN = os.getenv('7741293072:AAEiWZSyFz1V39uQYbHEk10BTUoPYiUxyS4')
-# print(HP_TOKEN)
+HP_TOKEN = "7741293072:AAEiWZSyFz1V39uQYbHEk10BTUoPYiUxyS4"
 
+#print token
 bot = telebot.TeleBot(HP_TOKEN) #balderdashBot
 df = pd.DataFrame(map(lambda X: map(str.strip,X.split('-')),open('spells.txt')),columns = ['Spells','Reactions'])
 print('Ready')
